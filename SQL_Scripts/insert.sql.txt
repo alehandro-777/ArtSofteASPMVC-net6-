@@ -1,0 +1,22 @@
+USE [ArtsofteDB]
+GO
+
+INSERT INTO [dbo].[Department] ([Id],[Name],[Floor]) VALUES (1, 'Dep. name 1', 1);
+INSERT INTO [dbo].[Department] ([Id],[Name],[Floor]) VALUES (2, 'Dep. name 2', 2)
+INSERT INTO [dbo].[Department] ([Id],[Name],[Floor]) VALUES (3, 'Dep. name 3', 3)
+INSERT INTO [dbo].[Department] ([Id],[Name],[Floor]) VALUES (4, 'Dep. name 4', 1)
+INSERT INTO [dbo].[Department] ([Id],[Name],[Floor]) VALUES (5, 'Dep. name 5', 2)
+
+GO
+
+INSERT INTO [dbo].[Programming_language] ([Id],[Name]) VALUES (1, 'C++');
+INSERT INTO [dbo].[Programming_language] ([Id],[Name]) VALUES (2, 'C#');
+INSERT INTO [dbo].[Programming_language] ([Id],[Name]) VALUES (3, 'Perl');
+INSERT INTO [dbo].[Programming_language] ([Id],[Name]) VALUES (4, 'JavaScript');
+
+GO
+
+INSERT INTO [dbo].[Employee] ([Name] ,[SurName],[DepartmentId],[ProgrammingLangId],[Age],[Gender]) VALUES ('Name 1','SurName 1', 1,2,20,'Male');
+INSERT INTO [dbo].[Employee] ([Name] ,[SurName],[DepartmentId],[ProgrammingLangId],[Age],[Gender]) VALUES ('Name 2','SurName 2', 2,1,22,'Male');
+
+GO
